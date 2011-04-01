@@ -5,7 +5,8 @@
 	"description" : "Http gateway for Socket.io",
 	"author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
 	"dependencies": {
-		'socket.io': '>= 0.6'
+		'socket.io': '>= 0.6',
+		'connect'  : '>= 1.2.1'
 	},
 	"keywords"    : ["websocket", "http"],
 	"repositories": [{

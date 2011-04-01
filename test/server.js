@@ -1,23 +1,12 @@
-var Chaussette = require('../lib/chaussette').Chaussette,
+var chaussette = require('../lib/chaussette'),
 	url = require('url'),
-	fs = require('fs'),
-	http = require('http');
+	fs = require('fs');
 	
-var server = http.createServer(function(req, res){ 
-	var path = url.parse(req.url).pathname;
-	console.log(path);
-	switch (path) {
-	case '/':
+var server = chaussette.createChaussette('http://localhost:8888/','casimir')
+	.use('/',function(req, res){ 
 		res.writeHead(200, {'Content-Type': 'text/html'}); 
 		res.write(fs.readFileSync('index.html')); 
-		res.end(); 
-	break;
-
-}
- // your normal server code 
-});
-
-var chaussette = new Chaussette('http://localhost:8888/','casimir');
-chaussette.listen(server);
+		res.end();
+	});
 
 server.listen(8000);
