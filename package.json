@@ -1,0 +1,19 @@
+{
+	"name"        : "chaussette",
+	"version"     : "0.0.1",
+	"main"        : "./lib/chaussette",
+	"description" : "Http gateway for Socket.io",
+	"author"      : "Mathieu Lecarme <mathieu@garambrogne.net>",
+	"dependencies": {
+		'socket.io': '>= 0.6'
+	},
+	"keywords"    : ["websocket", "http"],
+	"repositories": [{
+		"type": "git",
+		"path": "git://github.com/athoune/chaussette.git"
+		}],
+	"homepage"    : "http://github.com/athoune/chaussette",
+	"bugs"        : "http://github.com/athoune/chaussette/issues",
+	"licenses"    : [{ "type": "BSD"}],
+	"engine"      : "node"
+}
