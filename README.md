@@ -7,6 +7,16 @@ you can push data to connected user.
 
 This project use node, but you don't have to care about it, just like Solr.
 
+Status
+------
+
+Early alpha, but you can see something.
+
+ * √ REST list connectd users
+ * √ REST -> web client communication
+ * _ web client send event -> webhook
+ * _ minimal PHP api
+
 Test
 ----
 
