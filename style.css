@@ -1,0 +1,70 @@
+/*
+#730710 rouge
+#400414 rouge
+black
+#022E40 bleu
+#EBF2F2 blanc
+*/
+
+body {
+  margin-top: 1.0em;
+  background-color: black;
+  color: #EBF2F2;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+#container {
+  margin: 0 auto;
+  width: 700px;
+}
+h1 { 
+	font-family: 'Unkempt';
+	font-size: 6em;
+	color: #730710;
+	margin-bottom: 3px;
+}
+
+#description {
+	background-color: #730710;
+	padding: 10px;
+	line-height: 2em;
+	text-align: justify;
+	border: 5px solid #400414;
+	border-radius: 20px;
+}
+#description a {
+	color: #EBF2F2;
+	text-decoration: underline;
+}
+#illus {
+	width: 360px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#illus img {
+	border: 5px solid #400414;
+	
+}
+#illus a {
+	font-size: 0.8em;
+}
+h1 .small {
+	font-size: 0.3em;
+	color: #400414; }
+h1 a { color: #730710; }
+h2 {
+		font-family: 'Unkempt';
+	font-size: 1.5em; color: #400414; }
+h3 { text-align: center; color: #400414; }
+a {
+	color: #022E40;
+	text-decoration: none;
+}
+p {
+	line-height: 2em;
+}
+pre { background: #022E40; color: #fff; padding: 15px;}
+hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+.footer { text-align:center; padding-top:30px; font-style: italic; }
