@@ -13,6 +13,7 @@
 			});
 		socket.on('message', function(data){
 			//console.log(data);
+			$("#messages").append('<p>' + data + '</p>');
 		});
 		socket.on('disconnect', function(){
 			
