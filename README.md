@@ -15,9 +15,10 @@ Early alpha, but you can see something.
  * √ REST list connectd users
  * √ REST -> web client communication
  * √ web client send event -> webhook
- * _ minimal PHP api
- * _ secured authentification on the socket
+ * _ Minimal PHP api
+ * _ Secured authentification on the socket
  * _ One users, lots of tabs
+ * _ Proxy stuff to share one server port
 
 Test
 ----
