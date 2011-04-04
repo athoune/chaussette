@@ -18,13 +18,19 @@
 		socket.on('disconnect', function(){
 			
 		});
-		
+		$("#talk").click(function(){
+			var msg = $("#in");
+			socket.send(msg.attr('value'));
+			msg.attr('value','');
+			return false;
+		})
 	});
 	</script>
 </head>
 <body>
 	<h1>Chaussette</h1>
-	Beuha
+	<input type="text" id="in">
+	<input type="submit" id="talk">
 	<div id="messages"></div>
 </body>
 </html>
